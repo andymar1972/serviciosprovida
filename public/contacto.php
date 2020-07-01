@@ -19,7 +19,8 @@
         <div class="main-layout__grid">
           <div class="main-layout__data">
             <p class="main-layout__subtitle subtitle">FORMULARIO <span>DE CONTACTO</span></p>
-            <form class="form" action="" method="post">
+            <form id="frmContacto" class="form" action="" method="post">
+              <div class="panel__confirmacion" id="respa"></div>
               <div class="form__group">
                 <label for="nombres-contacto">NOMBRES Y APELLIDOS</label>
                 <input class="input" type="text" name="nombres" id="nombres-contacto" required>
