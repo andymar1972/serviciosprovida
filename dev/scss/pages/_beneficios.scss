@@ -1,0 +1,45 @@
+.beneficios {
+  padding: 10rem 0;
+  background-color: rgb(249, 249, 249);
+  background-image: url("../assets/img/beneficios-section.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  @include b-580 {
+    background-image: none;
+    padding: 4rem 0;
+  }
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    @include b-580 {
+      flex-direction: column;
+    }
+  }
+  &__2 {
+    margin-top: 2rem;
+  }
+  &__card {
+    background-color: $primary-color;
+    width: 30rem;
+    color: #fff;
+    padding: 1.5rem;
+    line-height: 1.2;
+    border-radius: 1rem;
+    font-family: $main-title;
+    text-align: center;
+    margin-top: 8rem;
+    @include b-580 {
+      margin-top: 2rem;
+    }
+    @include b-580 {
+      width: auto;
+    }
+    &:nth-child(even) {
+      background-color: $secondary-color;
+    }
+    &:first-child {
+      margin-top: 0;
+    }
+  }
+}

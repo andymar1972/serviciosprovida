@@ -1,0 +1,89 @@
+.demostraciones {
+  background-color: rgb(249, 249, 249);
+  &__title {
+    text-align: center;
+  }
+  &__flex {
+    margin-top: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    @include b-800{
+      flex-direction: column;
+    }
+  }
+  &__card {
+    @include b-800{
+      margin-top: 3rem;
+      &:first-child{
+        margin-top: 0;
+      }
+    }
+    color: #fff;
+    background-color: $primary-color;
+    padding: 1.5rem 2rem;
+    border-radius: 1.5rem;
+    &:last-child {
+      background-color: $secondary-color;
+    }
+    & p {
+      font-family: $main-title;
+    }
+    &__title {
+      font-size: 2rem;
+      text-align: center;
+    }
+  }
+  &__flecha {
+    @include b-800{
+      margin-top: 3rem;
+      width: 13rem;
+    }
+  }
+  &__table {
+    margin-top: 5rem;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    @include b-420{
+      width: 100%;
+    }
+  }
+  &__centrar{
+    @include  b-420{
+      flex-direction: column;
+    }
+  }
+  &__item {
+    @include  b-420{
+      margin-top: 3rem;
+      box-shadow: 0px 0px 20px 0px rgb(172, 172, 172);
+      &:first-child{
+        margin-top: 0;
+      }
+    }
+    &__title,&__subtitle {
+      color: #fff;
+      font-family: $main-title;
+      text-align: center;
+      padding: 1rem 0;
+      font-size: 1.8rem;
+    }
+    &__title{
+      background-color: $primary-color;
+      border-bottom: .2rem solid #fff;
+    }
+    &__subtitle{
+      background-color: rgb(110, 176, 173);
+      flex: 1;
+    }
+    &__data{
+      background-color: #fff;
+      flex: 1;
+      & p{
+        padding: .8rem 2rem;
+        font-family: $main-title;
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+//Fuentes
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+@font-face{
+  src: url('../assets/fonts/gotham-medium.ttf');
+  font-family: 'gotham-medium';
+}
+:root{
+  --main-title:'gotham-medium',sans-serif;
+  --main-font:'Roboto',sans-serif;
+}
+
+$main-title: var(--main-title);
+$main-font: var(--main-font);

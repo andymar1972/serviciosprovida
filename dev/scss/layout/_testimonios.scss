@@ -1,0 +1,76 @@
+.testimonios {
+  background-color: $primary-color;
+  position: relative;
+  &::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-image: url("../assets/img/fondo-testimonios.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  &__container {
+  }
+  &__title {
+    text-align: center;
+    color: #fff;
+  }
+  &__preslider {
+    margin-top: 7rem;
+    @include b-580{
+      margin-top: 5rem;
+    }
+  }
+  &__flex {
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5rem;
+    @include b-580{
+      grid-template-columns: 1fr;
+    }
+  }
+  &__item {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    @include b-420{
+      flex-direction: column;
+    }
+    &__img {
+      flex: none;
+      padding: 0.9rem;
+      background-color: #fff;
+      border-radius: 50%;
+      @include b-420{
+        margin-bottom: 1rem;
+      }
+    }
+    &__data {
+      margin-left: 2rem;
+    }
+    &__title,
+    &__text {
+      font-family: $main-title;
+    }
+    &__title {
+      font-size: 2rem;
+    }
+    &__text {
+      margin-top: 1rem;
+      font-size: 1.4rem;
+    }
+  }
+  &__flechas {
+    margin-top: 3rem;
+
+    & div {
+      margin: 0 0.8rem;
+      cursor: pointer;
+      z-index: 8;
+    }
+  }
+}

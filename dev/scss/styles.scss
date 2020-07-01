@@ -1,0 +1,27 @@
+//Configuracion guias
+@import "config/rutas";
+@import "config/colors";
+@import "config/fonts";
+// Mixins
+@import "mixins/breakpoints";
+@import "mixins/reset-list";
+//Estilos base
+@import "base/normalize";
+@import "base/base";
+//Componentes
+@import "components/header";
+@import "components/main-menu";
+@import "components/button";
+@import "components/footer";
+@import "components/form";
+@import "components/input";
+// Layout
+@import "layout/banner";
+@import "layout/quienes-somos";
+@import "layout/valores";
+@import "layout/testimonios";
+@import "layout/main-layout";
+// Paginas
+@import "pages/demostraciones";
+@import "pages/beneficios";
+@import "pages/contacto";

@@ -1,0 +1,55 @@
+.footer {
+  &__top{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+  &__menu{
+    @include reset-list;
+    display: flex;
+    justify-content: space-between;
+    @include b-800{
+      flex-direction: column;
+    }
+    & li{
+      font-family: $main-title;
+      font-weight: 700;
+      font-size: 1.4rem;
+      color:$primary-color;
+      @include b-800{
+        margin-top: 2rem;
+        border-bottom: .1rem solid $primary-color;
+        padding-bottom: 1rem;
+        &:first-child{
+          margin-top: 0;
+        }
+      }
+    }
+  }
+  &__subtitle{
+    margin-top: 6rem;
+    text-align: center;
+  }
+  &__redes{
+    margin-top: 2rem;
+  }
+  &__icon{
+    width: 3.7rem;
+    margin-left: 1rem;
+    &:first-child{
+      margin-left: 0;
+    }
+  }
+  &__bottom {
+    padding: 2rem 0;
+    background-color: rgb(212, 212, 212);
+  }
+  &__down {
+    flex-direction: column;
+    align-items: center;
+  }
+  &__text {
+    font-weight: 700;
+    color: $primary-color;
+    font-family: $main-title;
+  }
+}
