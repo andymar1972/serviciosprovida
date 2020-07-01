@@ -733,7 +733,7 @@ a {
   flex-direction: column;
 }
 
-.form__group:nth-child(1), .form__group:nth-child(4) {
+.form__group:nth-child(1), .form__group:nth-child(2), .form__group:nth-child(5) {
   grid-column: 1/3;
 }
 

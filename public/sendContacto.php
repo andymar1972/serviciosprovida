@@ -1,24 +1,23 @@
 ﻿<?php
-
-$emailFrom = "andymarrey30@gmail.com";
-$emailTo = "andymarrey30@gmail.com";
+$emailFrom = "informes@serviciosprovida.com";
+$emailTo = "informes@serviciosprovida.com";
 
 $subject = "SERVICIOS PRO VIDA | FORMULARIO DE CONTACTO";
 
 $nombres = strip_tags($_POST['nombres']);
 $celular = strip_tags($_POST['celular']);
 $email = strip_tags($_POST['email']);
-$combo = strip_tags($_POST['mensaje-contacto']);
+$mensaje = strip_tags($_POST['mensaje']);
 
 
 $body = "Nombres: " . $nombres . "\n";
 $body .= "Celular: " . $celular . "\n";
 $body .= "Email: " . $email . "\n";
-$body .= "Producto: " . $combo . "\n";
+$body .= "Mensaje: " . $mensaje . "\n";
 
 $headers = "From: " . $emailFrom . "\n";
 $headers .= "Reply-To:" . $email . "\n";
-$headers .= "Cc: andymarrey30@gmail.com";
+$headers .= "Cc: informes@serviciosprovida.com";
 
 
 

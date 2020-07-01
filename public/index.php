@@ -18,9 +18,15 @@
       </div>
       <div class="banner__item">
         <figure class="banner__img">
-          <img src="assets/img/banner.jpg" alt="banner">
+          <img src="assets/img/b2.jpg" alt="banner">
         </figure>
-        <p class="banner__title">SOMOS<span>PRO VIDA</span></p>
+        <p class="banner__title">IMPULSAMOS LA<span>CULTURA EMPRESARIAL</span></p>
+      </div>
+      <div class="banner__item">
+        <figure class="banner__img">
+          <img src="assets/img/b3.jpg" alt="banner">
+        </figure>
+        <p class="banner__title">PROMOVEMOS LA<span>COOPERACIÓN EMPRESARIAL</span></p>
       </div>
     </div>
     <div class="banner__next">

@@ -1,11 +1,11 @@
 <?php
-$tituloWebRedes = "";
-$descripccionRedes = "";
-$descripccionWeb = "";
-$urlWeb = "";
-$twitterCard = "";
-$favicon = "";
-$imgWeb = "";
+$tituloWebRedes = "Servicios Pro Vida";
+$descripccionRedes = "Somos una Organización de estructura multinivel, que promueve la cooperación empresarial, el fortalecimiento de la calidad educativa, e impulsa la cultura empresarial emprendedora en el área financiera.";
+$descripccionWeb = "Somos una Organización de estructura multinivel, que promueve la cooperación empresarial, el fortalecimiento de la calidad educativa, e impulsa la cultura empresarial emprendedora en el área financiera.";
+$urlWeb = "https://serviciosprovida.com/";
+$twitterCard = "summary";
+$favicon = "assets/img/icons/favicon.ico";
+$imgWeb = "assets/img/banner.jpg";
 ?>
 <!DOCTYPE html>
 <html lang="es">
