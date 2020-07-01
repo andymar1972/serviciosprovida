@@ -425,6 +425,12 @@ a {
   display: none;
 }
 
+@media screen and (max-width: 800px) {
+  .ocultar-foto {
+    display: none;
+  }
+}
+
 .section {
   padding: 4rem 0;
 }
@@ -454,7 +460,13 @@ a {
   color: var(--primary-color);
   line-height: 1.1;
   font-family: var(--main-title);
-  letter-spacing: .25rem;
+  letter-spacing: 0.25rem;
+}
+
+@media screen and (max-width: 420px) {
+  .subtitle {
+    letter-spacing: 0.1rem;
+  }
 }
 
 .subtitle span {
@@ -1197,10 +1209,24 @@ a {
   text-align: center;
 }
 
+.demostraciones__flecha img:first-child {
+  display: block;
+}
+
+.demostraciones__flecha img:last-child {
+  display: none;
+}
+
 @media screen and (max-width: 800px) {
   .demostraciones__flecha {
     margin-top: 3rem;
     width: 13rem;
+  }
+  .demostraciones__flecha img:first-child {
+    display: none;
+  }
+  .demostraciones__flecha img:last-child {
+    display: block;
   }
 }
 
@@ -1259,6 +1285,12 @@ a {
 .demostraciones__item__data p {
   padding: .8rem 2rem;
   font-family: var(--main-title);
+}
+
+@media screen and (max-width: 580px) {
+  .demostraciones__item__data p {
+    text-align: center;
+  }
 }
 
 .beneficios {

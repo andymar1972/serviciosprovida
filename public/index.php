@@ -38,7 +38,7 @@
             <p class="quienes-somos__text">Una innovadora oportunidad de negocio, basada en la formación de empresarios independientes, a los que se les brinda la oportunidad de ser mentores de otras personas que comparten su vocación y pasión por el servicio, y lograr una vida flexible, con un equilibrio entre la vida laboral y familiar, las oportunidades para relacionarse y establecer contactos y un gran potencial de ingresos.</p>
             <a class="quienes-somos__button button" href="quienes-somos.php">LEER +</a>
           </div>
-          <figure class="quienes-somos__img">
+          <figure class="quienes-somos__img ocultar-foto">
             <img src="assets/img/foto-inicio.jpg" alt="">
           </figure>
         </div>

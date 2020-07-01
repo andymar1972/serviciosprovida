@@ -27,6 +27,7 @@
           </div>
           <figure class="demostraciones__flecha">
             <img src="assets/img/flecha.png" alt="">
+            <img class="demostraciones__flecha__svg" src="assets/img/flecha-abajo.svg" alt="">
           </figure>
           <div class="demostraciones__card">
             <p class="demostraciones__card__title">SALIDA</p>

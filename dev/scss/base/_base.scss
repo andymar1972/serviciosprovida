@@ -64,6 +64,13 @@ a {
 .ocultar {
   display: none;
 }
+
+.ocultar-foto{
+  @include b-800{
+    display: none;
+  }
+}
+
 .section {
   padding: 4rem 0;
 }
@@ -71,7 +78,7 @@ a {
   max-width: 120rem;
   margin-left: auto;
   margin-right: auto;
-  @include b-800{
+  @include b-800 {
     padding: 0rem 1.5rem;
   }
 }
@@ -87,7 +94,10 @@ a {
   color: $primary-color;
   line-height: 1.1;
   font-family: $main-title;
-  letter-spacing: .25rem;
+  letter-spacing: 0.25rem;
+  @include b-420 {
+    letter-spacing: 0.1rem;
+  }
   & span {
     font-weight: 700;
     font-size: 2.6rem;

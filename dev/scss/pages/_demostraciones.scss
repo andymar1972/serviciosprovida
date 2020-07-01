@@ -35,10 +35,27 @@
     }
   }
   &__flecha {
+    & img{
+      &:first-child{
+        display: block;
+      }
+      &:last-child{
+        display: none;
+      }
+    }
     @include b-800{
       margin-top: 3rem;
       width: 13rem;
+      & img{
+        &:first-child{
+          display: none;
+        }
+        &:last-child{
+          display: block;
+        }
+      }
     }
+    
   }
   &__table {
     margin-top: 5rem;
@@ -83,6 +100,9 @@
       & p{
         padding: .8rem 2rem;
         font-family: $main-title;
+        @include b-580{
+          text-align: center;
+        }
       }
     }
   }

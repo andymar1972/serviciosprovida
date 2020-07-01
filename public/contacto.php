@@ -44,7 +44,7 @@
             </form>
           </div>
           <div class="main-layout__images">
-            <figure class="main-layout__img">
+            <figure class="main-layout__img ocultar-foto">
               <img src="assets/img/contacto1.jpg" alt="">
             </figure>
             <div class="contacto centrar">
