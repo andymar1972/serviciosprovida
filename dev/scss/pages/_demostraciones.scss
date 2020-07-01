@@ -8,14 +8,14 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    @include b-800{
+    @include b-800 {
       flex-direction: column;
     }
   }
   &__card {
-    @include b-800{
+    @include b-800 {
       margin-top: 3rem;
-      &:first-child{
+      &:first-child {
         margin-top: 0;
       }
     }
@@ -33,74 +33,80 @@
       font-size: 2rem;
       text-align: center;
     }
+    &__text {
+      @include b-580 {
+        font-size: 1.4rem;
+        margin-top: 0.5rem;
+      }
+    }
   }
   &__flecha {
-    & img{
-      &:first-child{
+    & img {
+      &:first-child {
         display: block;
       }
-      &:last-child{
+      &:last-child {
         display: none;
       }
     }
-    @include b-800{
+    @include b-800 {
       margin-top: 3rem;
       width: 13rem;
-      & img{
-        &:first-child{
+      & img {
+        &:first-child {
           display: none;
         }
-        &:last-child{
+        &:last-child {
           display: block;
         }
       }
     }
-    
   }
   &__table {
     margin-top: 5rem;
     width: 90%;
     margin-left: auto;
     margin-right: auto;
-    @include b-420{
+    @include b-420 {
       width: 100%;
     }
   }
-  &__centrar{
-    @include  b-420{
+  &__centrar {
+    @include b-420 {
       flex-direction: column;
     }
   }
   &__item {
-    @include  b-420{
+    @include b-420 {
       margin-top: 3rem;
       box-shadow: 0px 0px 20px 0px rgb(172, 172, 172);
-      &:first-child{
+      &:first-child {
         margin-top: 0;
       }
     }
-    &__title,&__subtitle {
+    &__title,
+    &__subtitle {
       color: #fff;
       font-family: $main-title;
       text-align: center;
       padding: 1rem 0;
       font-size: 1.8rem;
     }
-    &__title{
+    &__title {
       background-color: $primary-color;
-      border-bottom: .2rem solid #fff;
+      border-bottom: 0.2rem solid #fff;
     }
-    &__subtitle{
+    &__subtitle {
       background-color: rgb(110, 176, 173);
       flex: 1;
     }
-    &__data{
+    &__data {
       background-color: #fff;
       flex: 1;
-      & p{
-        padding: .8rem 2rem;
+      & p {
+        padding: 0.8rem 2rem;
         font-family: $main-title;
-        @include b-580{
+        @include b-580 {
           text-align: center;
         }
       }

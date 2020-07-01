@@ -1209,6 +1209,13 @@ a {
   text-align: center;
 }
 
+@media screen and (max-width: 580px) {
+  .demostraciones__card__text {
+    font-size: 1.4rem;
+    margin-top: 0.5rem;
+  }
+}
+
 .demostraciones__flecha img:first-child {
   display: block;
 }
@@ -1269,7 +1276,7 @@ a {
 
 .demostraciones__item__title {
   background-color: var(--primary-color);
-  border-bottom: .2rem solid #fff;
+  border-bottom: 0.2rem solid #fff;
 }
 
 .demostraciones__item__subtitle {
@@ -1283,7 +1290,7 @@ a {
 }
 
 .demostraciones__item__data p {
-  padding: .8rem 2rem;
+  padding: 0.8rem 2rem;
   font-family: var(--main-title);
 }
 

@@ -20,10 +20,10 @@
         <div class="demostraciones__flex">
           <div class="demostraciones__card">
             <p class="demostraciones__card__title">INGRESO</p>
-            <p>Tu: N° de socios ingresados por ti /mes</p>
-            <p>CS: N° de socios ingresados por cada socio/ mes</p>
-            <p>Mes : N° de meses</p>
-            <p>(para prueba se mostrarálos resultados del mes 1 y 6)</p>
+            <p class="demostraciones__card__text">Tu: N° de socios ingresados por ti /mes</p>
+            <p class="demostraciones__card__text">CS: N° de socios ingresados por cada socio/ mes</p>
+            <p class="demostraciones__card__text">Mes : N° de meses</p>
+            <p class="demostraciones__card__text">(para prueba se mostrarálos resultados del mes 1 y 6)</p>
           </div>
           <figure class="demostraciones__flecha">
             <img src="assets/img/flecha.png" alt="">
@@ -31,9 +31,9 @@
           </figure>
           <div class="demostraciones__card">
             <p class="demostraciones__card__title">SALIDA</p>
-            <p>SD: N° de Socios Directos</p>
-            <p>DI: N° de socios indirectos</p>
-            <p>Ingreso S/.: Ingreso obtenido</p>
+            <p class="demostraciones__card__text">SD: N° de Socios Directos</p>
+            <p class="demostraciones__card__text">DI: N° de socios indirectos</p>
+            <p class="demostraciones__card__text">Ingreso S/.: Ingreso obtenido</p>
           </div>
         </div>
         <div class="demostraciones__table">
