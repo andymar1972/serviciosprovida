@@ -172,23 +172,6 @@
               </div>
             </div>
           </div>
-          <div class="demostraciones__item">
-            <p class="demostraciones__item__title">CASO 1</p>
-            <div class="demostraciones__centrar centrar">
-              <div class="demostraciones__item__data">
-                <p class="demostraciones__item__subtitle">INGRESO</p>
-                <p>TU:1</p>
-                <p>CS:1</p>
-                <p>MES:1</p>
-              </div>
-              <div class="demostraciones__item__data">
-                <p class="demostraciones__item__subtitle">SALIDA</p>
-                <p>SD:1</p>
-                <p>SI:0</p>
-                <p>Ingreso:S/63.75</p>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
     </section>
