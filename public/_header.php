@@ -9,7 +9,7 @@
       <ul class="main-menu">
         <li class="main-menu__item"><a class="main-menu__link" href="index.php">INICIO</a></li>
         <li class="main-menu__item"><a class="main-menu__link" href="quienes-somos.php">QUIENES SOMOS</a></li>
-        <li class="main-menu__item"><a class="main-menu__link" href="objeto-social">OBJETO SOCIAL</a></li>
+        <li class="main-menu__item"><a class="main-menu__link" href="objeto-social.php">OBJETO SOCIAL</a></li>
         <li class="main-menu__item"><a class="main-menu__link" href="proposito.php">PROPÓSITO</a></li>
         <li class="main-menu__item"><a class="main-menu__link" href="propuesta.php">PROPUESTA</a></li>
         <li class="main-menu__item"><a class="main-menu__link" href="demostraciones.php">DEMOSTRACIONES</a></li>
