@@ -738,7 +738,7 @@ a {
 }
 
 @media screen and (max-width: 420px) {
-  .form__group:nth-child(1), .form__group:nth-child(4) {
+  .form__group:nth-child(1), .form__group:nth-child(2), .form__group:nth-child(5) {
     grid-column: 1/2;
   }
 }
@@ -806,6 +806,7 @@ a {
 }
 
 .input {
+  width: 100%;
   padding: 1rem;
   outline: none;
   border: none;
