@@ -21,7 +21,7 @@
   }
   &__preslider {
     margin-top: 7rem;
-    @include b-580{
+    @include b-580 {
       margin-top: 5rem;
     }
   }
@@ -29,7 +29,7 @@
     display: grid !important;
     grid-template-columns: repeat(2, 1fr);
     gap: 5rem;
-    @include b-580{
+    @include b-580 {
       grid-template-columns: 1fr;
     }
   }
@@ -37,7 +37,7 @@
     display: flex;
     align-items: center;
     color: #fff;
-    @include b-420{
+    @include b-420 {
       flex-direction: column;
     }
     &__img {
@@ -45,12 +45,15 @@
       padding: 0.9rem;
       background-color: #fff;
       border-radius: 50%;
-      @include b-420{
+      @include b-420 {
         margin-bottom: 1rem;
       }
     }
     &__data {
       margin-left: 2rem;
+      @include  b-580{
+        margin-left: 0;
+      }
     }
     &__title,
     &__text {
@@ -58,10 +61,16 @@
     }
     &__title {
       font-size: 2rem;
+      @include  b-580{
+        font-size: 1.7rem;
+      }
     }
     &__text {
       margin-top: 1rem;
       font-size: 1.4rem;
+      @include  b-580{
+        font-size: 1.3rem;
+      }
     }
   }
   &__flechas {

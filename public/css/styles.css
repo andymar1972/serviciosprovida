@@ -1133,6 +1133,12 @@ a {
   margin-left: 2rem;
 }
 
+@media screen and (max-width: 580px) {
+  .testimonios__item__data {
+    margin-left: 0;
+  }
+}
+
 .testimonios__item__title, .testimonios__item__text {
   font-family: var(--main-title);
 }
@@ -1141,9 +1147,21 @@ a {
   font-size: 2rem;
 }
 
+@media screen and (max-width: 580px) {
+  .testimonios__item__title {
+    font-size: 1.7rem;
+  }
+}
+
 .testimonios__item__text {
   margin-top: 1rem;
   font-size: 1.4rem;
+}
+
+@media screen and (max-width: 580px) {
+  .testimonios__item__text {
+    font-size: 1.3rem;
+  }
 }
 
 .testimonios__flechas {
@@ -1314,9 +1332,17 @@ a {
   }
 }
 
+.demostraciones__item {
+  margin: 1rem 0;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
 @media screen and (max-width: 420px) {
   .demostraciones__item {
-    margin-top: 3rem;
+    margin: 1.5rem;
     box-shadow: 0px 0px 20px 0px #acacac;
   }
   .demostraciones__item:first-child {
@@ -1335,6 +1361,22 @@ a {
 .demostraciones__item__title {
   background-color: var(--primary-color);
   border-bottom: 0.2rem solid #fff;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+.demostraciones__item__title::after {
+  content: '\02795';
+  /* Unicode character for "plus" sign (+) */
+  font-size: 13px;
+  color: #fff;
+  float: right;
+  margin-left: 5px;
 }
 
 .demostraciones__item__subtitle {
@@ -1356,6 +1398,15 @@ a {
   .demostraciones__item__data p {
     text-align: center;
   }
+}
+
+.active, .demostraciones__item__title:hover {
+  background-color: var(--secondary-color);
+}
+
+.active:after {
+  content: "\2796";
+  /* Unicode character for "minus" sign (-) */
 }
 
 .beneficios {

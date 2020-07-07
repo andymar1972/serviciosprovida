@@ -32,6 +32,7 @@
     &__title {
       font-size: 2rem;
       text-align: center;
+      
     }
     &__text {
       @include b-580 {
@@ -77,8 +78,15 @@
     }
   }
   &__item {
+    // padding: 0 18px;
+    margin: 1rem 0;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
     @include b-420 {
-      margin-top: 3rem;
+      // margin-top: 3rem;
+      margin: 1.5rem;
       box-shadow: 0px 0px 20px 0px rgb(172, 172, 172);
       &:first-child {
         margin-top: 0;
@@ -95,6 +103,20 @@
     &__title {
       background-color: $primary-color;
       border-bottom: 0.2rem solid #fff;
+      cursor: pointer;
+      padding: 18px;
+      width: 100%;
+      text-align: left;
+      border: none;
+      outline: none;
+      transition: 0.4s;
+      &::after{
+        content: '\02795'; /* Unicode character for "plus" sign (+) */
+        font-size: 13px;
+        color: #fff;
+        float: right;
+        margin-left: 5px;
+      }
     }
     &__subtitle {
       background-color: rgb(110, 176, 173);
@@ -112,4 +134,11 @@
       }
     }
   }
+}
+.active, .demostraciones__item__title:hover {
+  background-color: $secondary-color;
+}
+
+.active:after {
+  content: "\2796"; /* Unicode character for "minus" sign (-) */
 }

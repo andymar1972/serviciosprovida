@@ -26,6 +26,7 @@
             transparente con respecto a su
             estado de cuenta y a la estructura
             de su negocio</p>
+          <p class="beneficios__card">Formar parte de un grupo empresarial con una política de cultura  informativa y asesoramiento empresarial</p>
         </div>
         <div class="beneficios__2">
           <p class="beneficios__card">Asociarse a la empresa</p>
@@ -35,6 +36,8 @@
             a precio de costo</p>
           <p class="beneficios__card">Subsidio por sepelio
             (Titular y beneficiario)</p>
+          <p class="beneficios__card">Impulsar una cultura de logística perfecta para mejorar tu negocio, 
+asesoramiento financiero y soporte empresarial</p>
         </div>
       </div>
     </section>

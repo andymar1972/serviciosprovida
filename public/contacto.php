@@ -50,7 +50,7 @@
             </figure>
             <div class="contacto centrar">
               <p class="contacto__text"><i class="fas fa-mobile-alt"></i> 971902624</p>
-              <p class="contacto__text"><i class="fas fa-envelope"></i> pinedajaragustavo@gmail.com</p>
+              <!-- <p class="contacto__text"><i class="fas fa-envelope"></i> pinedajaragustavo@gmail.com</p> -->
             </div>
           </div>
         </div>

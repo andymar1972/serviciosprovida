@@ -23,7 +23,7 @@
             <p class="demostraciones__card__text">Tu: N° de socios ingresados por ti /mes</p>
             <p class="demostraciones__card__text">CS: N° de socios ingresados por cada socio/ mes</p>
             <p class="demostraciones__card__text">Mes : N° de meses</p>
-            <p class="demostraciones__card__text">(para prueba se mostrarálos resultados del mes 1 y 6)</p>
+            <p class="demostraciones__card__text">(Para prueba se mostrará los resultados del mes 1 y 6)</p>
           </div>
           <figure class="demostraciones__flecha">
             <img src="assets/img/flecha.png" alt="">
@@ -32,13 +32,13 @@
           <div class="demostraciones__card">
             <p class="demostraciones__card__title">SALIDA</p>
             <p class="demostraciones__card__text">SD: N° de Socios Directos</p>
-            <p class="demostraciones__card__text">DI: N° de socios indirectos</p>
+            <p class="demostraciones__card__text">SI: N° de socios indirectos</p>
             <p class="demostraciones__card__text">Ingreso S/.: Ingreso obtenido</p>
           </div>
         </div>
         <div class="demostraciones__table">
+          <button class="demostraciones__item__title" id="defaultOpen">CASO 1</button>
           <div class="demostraciones__item">
-            <p class="demostraciones__item__title">CASO 1</p>
             <div class="demostraciones__centrar centrar">
               <div class="demostraciones__item__data">
                 <p class="demostraciones__item__subtitle">INGRESO</p>
@@ -54,8 +54,8 @@
               </div>
             </div>
           </div>
+          <button class="demostraciones__item__title">CASO 2</button>
           <div class="demostraciones__item">
-            <p class="demostraciones__item__title">CASO 2</p>
             <div class="demostraciones__centrar centrar">
               <div class="demostraciones__item__data">
                 <p class="demostraciones__item__subtitle">INGRESO</p>
@@ -71,8 +71,8 @@
               </div>
             </div>
           </div>
+          <button class="demostraciones__item__title">CASO 3</button>
           <div class="demostraciones__item">
-            <p class="demostraciones__item__title">CASO 3</p>
             <div class="demostraciones__centrar centrar">
               <div class="demostraciones__item__data">
                 <p class="demostraciones__item__subtitle">INGRESO</p>
@@ -88,8 +88,8 @@
               </div>
             </div>
           </div>
+          <button class="demostraciones__item__title">CASO 4</button>
           <div class="demostraciones__item">
-            <p class="demostraciones__item__title">CASO 4</p>
             <div class="demostraciones__centrar centrar">
               <div class="demostraciones__item__data">
                 <p class="demostraciones__item__subtitle">INGRESO</p>
@@ -105,8 +105,8 @@
               </div>
             </div>
           </div>
+          <button class="demostraciones__item__title">CASO 5</button>
           <div class="demostraciones__item">
-            <p class="demostraciones__item__title">CASO 5</p>
             <div class="demostraciones__centrar centrar">
               <div class="demostraciones__item__data">
                 <p class="demostraciones__item__subtitle">INGRESO</p>
@@ -122,8 +122,8 @@
               </div>
             </div>
           </div>
+          <button class="demostraciones__item__title">CASO 6</button>
           <div class="demostraciones__item">
-            <p class="demostraciones__item__title">CASO 6</p>
             <div class="demostraciones__centrar centrar">
               <div class="demostraciones__item__data">
                 <p class="demostraciones__item__subtitle">INGRESO</p>
@@ -139,8 +139,8 @@
               </div>
             </div>
           </div>
+          <button class="demostraciones__item__title">CASO 7</button>
           <div class="demostraciones__item">
-            <p class="demostraciones__item__title">CASO 7</p>
             <div class="demostraciones__centrar centrar">
               <div class="demostraciones__item__data">
                 <p class="demostraciones__item__subtitle">INGRESO</p>
@@ -156,8 +156,8 @@
               </div>
             </div>
           </div>
+          <button class="demostraciones__item__title">CASO 8</button>
           <div class="demostraciones__item">
-            <p class="demostraciones__item__title">CASO 8</p>
             <div class="demostraciones__centrar centrar">
               <div class="demostraciones__item__data">
                 <p class="demostraciones__item__subtitle">INGRESO</p>
