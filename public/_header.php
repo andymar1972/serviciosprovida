@@ -14,6 +14,7 @@
         <li class="main-menu__item"><a class="main-menu__link" href="propuesta.php">PROPUESTA</a></li>
         <li class="main-menu__item"><a class="main-menu__link" href="demostraciones.php">DEMOSTRACIONES</a></li>
         <li class="main-menu__item"><a class="main-menu__link" href="beneficios.php">BENEFICIOS</a></li>
+        <li class="main-menu__item"><a class="main-menu__link" href="testimonios.php">TESTIMONIOS</a></li>
         <li class="main-menu__item"><a class="main-menu__link" href="contacto.php">CONTACTO</a></li>
       </ul>
       <div id="nav-close" class="header__close">

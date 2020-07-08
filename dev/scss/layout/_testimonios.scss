@@ -83,3 +83,11 @@
     }
   }
 }
+.testimonios__slider--page{
+  .testimonios__flex{
+    margin-top: 3rem;
+    &:first-child{
+      margin-top: 0;
+    }
+  }
+}

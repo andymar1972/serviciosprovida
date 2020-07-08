@@ -495,6 +495,10 @@ a {
   align-items: center;
 }
 
+.header__logo {
+  width: 20rem;
+}
+
 @media screen and (max-width: 800px) {
   .header__logo {
     width: 18rem;
@@ -581,7 +585,7 @@ a {
 
 .main-menu__link {
   font-family: var(--main-title);
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   color: var(--primary-color);
   font-weight: 700;
   padding: 1.5rem 1rem;
@@ -1174,6 +1178,14 @@ a {
   z-index: 8;
 }
 
+.testimonios__slider--page .testimonios__flex {
+  margin-top: 3rem;
+}
+
+.testimonios__slider--page .testimonios__flex:first-child {
+  margin-top: 0;
+}
+
 .main-layout {
   background-color: #f9f9f9;
 }
@@ -1364,7 +1376,9 @@ a {
   cursor: pointer;
   padding: 18px;
   width: 100%;
-  text-align: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border: none;
   outline: none;
   transition: 0.4s;

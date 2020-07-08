@@ -1,8 +1,23 @@
-<section class="testimonios section">
+<?php include('_head.php') ?>
+<title>Testimonios - Servicios Pro Vida</title>
+
+</head>
+
+<body>
+  <?php include('_header.php') ?>
+  <div class="banner--modify">
+    <figure class="banner__img--modify">
+      <img src="assets/img/contacto.jpg" alt="">
+    </figure>
+    <div class="container">
+      <h2 class="banner__data">NUESTROS <span>TESTIMONIOS</span></h2>
+    </div>
+  </div>
+  <main class="main">
+  <section class="testimonios section">
   <div class="testimonios__container container">
-    <h2 class="testimonios__title subtitle">NUESTROS <span>TESTIMONIOS</span></h2>
-    <div class="testimonios__preslider">
-      <div class="testimonios__slider">
+    <div class="testimonios__preslider--page">
+      <div class="testimonios__slider--page">
         <div class="testimonios__flex">
           <div class="testimonios__item">
             <figure class="testimonios__item__img">
@@ -24,7 +39,7 @@
             </div>
           </div>
         </div>
-        <div class="testimonios__flex">
+        <!-- <div class="testimonios__flex">
           <div class="testimonios__item">
             <figure class="testimonios__item__img">
               <img src="assets/img/testimonios2.png" alt="">
@@ -44,16 +59,14 @@
                 es una oportunidad maravillosa....</p>
             </div>
           </div>
-        </div>
-      </div>
-      <div class="testimonios__flechas centrar">
-        <div class="testimonios__prev">
-          <img src="assets/img/prev-bold.png" alt="">
-        </div>
-        <div class="testimonios__next">
-          <img src="assets/img/next-bold.png" alt="">
-        </div>
+        </div> -->
       </div>
     </div>
   </div>
 </section>
+    <?php include('_valores.php') ?>
+  </main>
+  <?php include('_footer.php') ?>
+</body>
+
+</html>

@@ -19,8 +19,7 @@
         <div class="main-layout__grid">
           <div class="main-layout__data">
             <ul class="main-layout__list">
-              <li>Crear oportunidades para la gente y ayudarlos a vivir mejor.</li>
-              <li>Crear oportunidades de negocio e impulsar la cultura empresarial para beneficiar a personas independientes y a micro empresarios.</li>
+              <li>Crear oportunidades para la gente y ayudarlos a vivir mejor. <br> Crear oportunidades de negocio e impulsar la cultura empresarial para beneficiar a personas independientes y a micro empresarios.</li>
             </ul>
           </div>
           <div class="main-layout__images">
@@ -37,4 +36,4 @@
   <?php include('_footer.php') ?>
 </body>
 
-</html> 
+</html>

@@ -10,6 +10,7 @@
         <li><a href="propuesta.php">PROPUESTA</a></li>
         <li><a href="demostraciones.php">DEMOSTRACIONES</a></li>
         <li><a href="beneficios.php">BENEFICIOS</a></li>
+        <li><a href="testimonios.php">TESTIMONIOS</a></li>
         <li><a href="contacto.php">CONTACTO</a></li>
       </ul>
     </nav>

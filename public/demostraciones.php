@@ -61,13 +61,13 @@
                 <p class="demostraciones__item__subtitle">INGRESO</p>
                 <p>TU:1</p>
                 <p>CS:1</p>
-                <p>MES:1</p>
+                <p>MES:6</p>
               </div>
               <div class="demostraciones__item__data">
                 <p class="demostraciones__item__subtitle">SALIDA</p>
-                <p>SD:1</p>
-                <p>SI:0</p>
-                <p>Ingreso:S/63.75</p>
+                <p>SD:6</p>
+                <p>SI:57</p>
+                <p>Ingreso:S/552.80</p>
               </div>
             </div>
           </div>
@@ -76,15 +76,15 @@
             <div class="demostraciones__centrar centrar">
               <div class="demostraciones__item__data">
                 <p class="demostraciones__item__subtitle">INGRESO</p>
-                <p>TU:1</p>
+                <p>TU:2</p>
                 <p>CS:1</p>
                 <p>MES:1</p>
               </div>
               <div class="demostraciones__item__data">
                 <p class="demostraciones__item__subtitle">SALIDA</p>
-                <p>SD:1</p>
+                <p>SD:2</p>
                 <p>SI:0</p>
-                <p>Ingreso:S/63.75</p>
+                <p>Ingreso:S/127.50</p>
               </div>
             </div>
           </div>
@@ -93,15 +93,15 @@
             <div class="demostraciones__centrar centrar">
               <div class="demostraciones__item__data">
                 <p class="demostraciones__item__subtitle">INGRESO</p>
-                <p>TU:1</p>
+                <p>TU:2</p>
                 <p>CS:1</p>
-                <p>MES:1</p>
+                <p>MES:6</p>
               </div>
               <div class="demostraciones__item__data">
                 <p class="demostraciones__item__subtitle">SALIDA</p>
-                <p>SD:1</p>
-                <p>SI:0</p>
-                <p>Ingreso:S/63.75</p>
+                <p>SD:12</p>
+                <p>SI:114</p>
+                <p>Ingreso:S/1094.50</p>
               </div>
             </div>
           </div>
@@ -110,15 +110,15 @@
             <div class="demostraciones__centrar centrar">
               <div class="demostraciones__item__data">
                 <p class="demostraciones__item__subtitle">INGRESO</p>
-                <p>TU:1</p>
-                <p>CS:1</p>
+                <p>TU:2</p>
+                <p>CS:2</p>
                 <p>MES:1</p>
               </div>
               <div class="demostraciones__item__data">
                 <p class="demostraciones__item__subtitle">SALIDA</p>
-                <p>SD:1</p>
+                <p>SD:2</p>
                 <p>SI:0</p>
-                <p>Ingreso:S/63.75</p>
+                <p>Ingreso:S/127.50</p>
               </div>
             </div>
           </div>
@@ -127,15 +127,15 @@
             <div class="demostraciones__centrar centrar">
               <div class="demostraciones__item__data">
                 <p class="demostraciones__item__subtitle">INGRESO</p>
-                <p>TU:1</p>
-                <p>CS:1</p>
-                <p>MES:1</p>
+                <p>TU:2</p>
+                <p>CS:2</p>
+                <p>MES:6</p>
               </div>
               <div class="demostraciones__item__data">
                 <p class="demostraciones__item__subtitle">SALIDA</p>
-                <p>SD:1</p>
-                <p>SI:0</p>
-                <p>Ingreso:S/63.75</p>
+                <p>SD:12</p>
+                <p>SI:620</p>
+                <p>Ingreso:S/3144.20</p>
               </div>
             </div>
           </div>
@@ -144,15 +144,15 @@
             <div class="demostraciones__centrar centrar">
               <div class="demostraciones__item__data">
                 <p class="demostraciones__item__subtitle">INGRESO</p>
-                <p>TU:1</p>
+                <p>TU:3</p>
                 <p>CS:1</p>
                 <p>MES:1</p>
               </div>
               <div class="demostraciones__item__data">
                 <p class="demostraciones__item__subtitle">SALIDA</p>
-                <p>SD:1</p>
+                <p>SD:3</p>
                 <p>SI:0</p>
-                <p>Ingreso:S/63.75</p>
+                <p>Ingreso:S/191.30</p>
               </div>
             </div>
           </div>
@@ -161,15 +161,15 @@
             <div class="demostraciones__centrar centrar">
               <div class="demostraciones__item__data">
                 <p class="demostraciones__item__subtitle">INGRESO</p>
-                <p>TU:1</p>
+                <p>TU:3</p>
                 <p>CS:1</p>
-                <p>MES:1</p>
+                <p>MES:6</p>
               </div>
               <div class="demostraciones__item__data">
                 <p class="demostraciones__item__subtitle">SALIDA</p>
-                <p>SD:1</p>
-                <p>SI:0</p>
-                <p>Ingreso:S/63.75</p>
+                <p>SD:18</p>
+                <p>SI:171</p>
+                <p>Ingreso:S/1593.90</p>
               </div>
             </div>
           </div>
