@@ -49,8 +49,16 @@
               <img src="assets/img/contacto1.jpg" alt="">
             </figure>
             <div class="contacto centrar">
+              <p class="contacto__text"><i class="fas fa-mobile-alt"></i> 933655825</p>
+              <p class="contacto__text"><i class="fas fa-envelope"></i> logistica@serviciosprovida.com</p>
+            </div>
+            <div class="contacto centrar">
               <p class="contacto__text"><i class="fas fa-mobile-alt"></i> 971902624</p>
-              <!-- <p class="contacto__text"><i class="fas fa-envelope"></i> pinedajaragustavo@gmail.com</p> -->
+              <p class="contacto__text"><i class="fas fa-envelope"></i> gpinedaj@serviciosprovida.com</p>
+            </div>
+            <div class="contacto centrar">
+              <!-- <p class="contacto__text"><i class="fas fa-mobile-alt"></i> 971902624</p> -->
+              <p class="contacto__text"><i class="fas fa-envelope"></i> informes@serviciosprovida.com</p>
             </div>
           </div>
         </div>
